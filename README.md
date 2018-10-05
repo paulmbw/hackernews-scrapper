@@ -1,4 +1,4 @@
-# @paulmbw/hackernews-scrapper
+# paulmbw/hackernews-scrapper
 
 A simple CLI tool for scrapping posts on hackernews.com
 

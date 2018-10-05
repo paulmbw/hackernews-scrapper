@@ -1,5 +1,5 @@
 {
-  "name": "hackernews-scrapper",
+  "name": "@paulmbw/hackernews-scrapper",
   "version": "1.0.0",
   "description": "A CLI tool for scrapping posts on hackernews.com",
   "main": "index.js",

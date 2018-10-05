@@ -1,12 +1,8 @@
 # Define image
 FROM node:8
 
-WORKDIR /app
+# Install the  @paulmbw/hackernews-scrapper package from npm
+RUN npm install -g @paulmbw/hackernews-scrapper
 
-COPY package.json /app
-
-RUN npm install 
-
-COPY . /app
-
-CMD hackernews-scrapper --posts 50
+# Run hackernews-scrapper with --posts n to retriece posts from hackernews.com
+CMD hackernews-scrapper --posts 100

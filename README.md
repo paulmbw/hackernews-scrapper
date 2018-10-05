@@ -1,4 +1,4 @@
-# @paulmbw/hackernews-scrapper
+# paulmbw/hackernews-scrapper
 
   
 

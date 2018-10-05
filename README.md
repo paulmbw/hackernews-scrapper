@@ -7,13 +7,13 @@ A simple CLI tool for scrapping posts on hackernews.com
 Using npm:
 
 ```bash
-$ npm i @paulmbw/hackernews-scrapper
+$ npm install -g paulmbw-hackernews-scrapper
 ```
 
 ## Usage
 
 ```bash
-$ hackernews-scrapper --posts 50
+$ paulmbw-hackernews-scrapper --posts 50
 ```
 
 You should be getting a similar output to the one shown below:
